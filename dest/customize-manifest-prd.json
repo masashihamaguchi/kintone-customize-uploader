@@ -1,0 +1,16 @@
+{
+    "app": "",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "dest/desktop/js/sample.js"
+        ],
+        "css": [
+            "dest/desktop/css/sample.css"
+        ]
+    },
+    "mobile": {
+        "js": [],
+        "css": []
+    }
+}

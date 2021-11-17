@@ -1,0 +1,22 @@
+{
+  "name": "kintone-customize-uploader-for-development",
+  "version": "1.0.0",
+  "description": "kintone customize uploader for development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm install -g @kintone/customize-uploader",
+    "init": "kintone-customize-uploader init",
+    "dev": "kintone-customize-uploader dest/customize-manifest-dev.json",
+    "prd": "kintone-customize-uploader dest/customize-manifest-prd.json",
+    "import-dev": "kintone-customize-uploader import dest/customize-manifest-dev.json",
+    "import-prd": "kintone-customize-uploader import dest/customize-manifest-prd.json",
+    "dev-watch": "kintone-customize-uploader dest/customize-manifest-dev.json --watch",
+    "prd-watch": "kintone-customize-uploader dest/customize-manifest-prd.json --watch"
+  },
+  "keywords": [
+    "kintone"
+  ],
+  "author": "Masashi Hamaguchi",
+  "license": "MIT"
+}
